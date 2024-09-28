@@ -13,8 +13,8 @@ import 'package:http/http.dart' as http;
 const greenMachineGreen = Color.fromARGB(255, 0, 167, 68);
 const timerPeriodicMilliseconds = 115;
 
-const serverHostName = 'localhost'; // TODO Put your server name here!
-const serverPort = 443;
+const serverHostName = 'jarrpa.net'; // TODO Put your server name here!
+const serverPort = 8443;
 
 const emptyMap = {"empty": " "};
 
