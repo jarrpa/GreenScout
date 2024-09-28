@@ -62,6 +62,10 @@ class MatchesData {
       final scheduleJson =
           jsonDecode(scheduleJsonString) as Map<dynamic, dynamic>;
 
+      if (scheduleJson.isEmpty) {
+        return;
+      }
+
       allParsedMatches.clear();
       allAssignedMatches.clear();
       for (var entry in scheduleJson.entries) {
