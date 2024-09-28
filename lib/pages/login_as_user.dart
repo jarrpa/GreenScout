@@ -48,7 +48,7 @@ class _LoginPageForUsers extends State<LoginPageForUsers> {
 
   Future<RSAPublicKey> getPublicKey() async {
     final url =
-        Uri(scheme: 'https', host: serverHostName, path: 'pub', port: 443);
+        Uri(scheme: 'https', host: serverHostName, path: 'pub', port: serverPort);
 
     var response = await http.get(url);
 

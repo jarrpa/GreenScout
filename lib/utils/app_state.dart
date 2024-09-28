@@ -299,7 +299,7 @@ class App {
 
   static Image getProfileImage(String arg) {
     return Image(
-        image: NetworkImage("https://$serverHostName/getPfp?username=$arg"));
+        image: NetworkImage("https://$serverHostName:$serverPort/getPfp?username=$arg"));
   }
 
   static Widget getGalleryImage(int index) {
@@ -318,7 +318,7 @@ class App {
         },
         height: 500,
         image: NetworkImage(
-          "https://$serverHostName/gallery?index=$index",
+          "https://$serverHostName:$serverPort/gallery?index=$index",
         ));
   }
 
