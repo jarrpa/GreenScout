@@ -14,8 +14,8 @@ const greenMachineGreen = Color.fromARGB(255, 0, 167, 67);
 const lightGreen = Color.fromARGB(255, 81, 222, 121);
 const timerPeriodicMilliseconds = 115;
 
-const serverHostName = 'localhost'; // TODO Put your server name here! SERVER STUFF (localhost is the default)
-const serverPort = 8080; //swap port based on TLS [backend main.go]
+const serverHostName = 'greenscout-backend-github-85398269750.us-central1.run.app'; // TODO Put your server name here! SERVER STUFF (localhost is the default)
+const serverPort = 443; //swap port based on TLS [backend main.go]
 
 const emptyMap = {"empty": " "};
 
