@@ -8,21 +8,21 @@
             "name": "green_scouting",
             "request": "launch",
             "type": "dart",
-            "args": ["--web-browser-flag=--disable-web-security"]
+            "args": ["--web-browser-flag=--disable-web-security", "--web-browser-flag=--ignore-certificate-errors"]
         },
         {
             "name": "green_scouting (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile",
-            "args": ["--web-browser-flag=--disable-web-security"]
+            "args": ["--web-browser-flag=--disable-web-security", "--web-browser-flag=--ignore-certificate-errors"]
         },
         {
             "name": "green_scouting (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",
-            "args": ["--web-browser-flag=--disable-web-security"]
+            "args": ["--web-browser-flag=--disable-web-security", "--web-browser-flag=--ignore-certificate-errors"]
         }
     ]
 }
