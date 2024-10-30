@@ -13,7 +13,7 @@ import 'package:http/http.dart' as http;
 const greenMachineGreen = Color.fromARGB(255, 0, 167, 68);
 const timerPeriodicMilliseconds = 115;
 
-const serverHostName = 'greenscout-backend-api-gw-138bxanq.uc.gateway.dev'; // TODO Put your server name here!
+const serverHostName = 'greenscout-backend-85398269750.us-central1.run.app'; // TODO Put your server name here!
 const serverPort = 443;
 
 const emptyMap = {"empty": " "};
