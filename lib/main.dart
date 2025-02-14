@@ -40,8 +40,8 @@ void main() async {
   await App.start();
 
   WidgetsFlutterBinding.ensureInitialized();
-
-  Timer.periodic(const Duration(seconds: 15), (timer) async {
+  Timer.periodic(const Duration(minutes: 1), (timer) async {
+  //Timer.periodic(const Duration(seconds: 15), (timer) async {
     final matches = MainAppData.immediateMatchCache;
 
     // This is used to test whether or not we're connected
@@ -92,9 +92,9 @@ void main() async {
         MainAppData.resetImmediateMatchCache();
       }
     }
-  });
+  //});
 
-  Timer.periodic(const Duration(minutes: 1), (timer) async {
+  //Timer.periodic(const Duration(minutes: 1), (timer) async {
     if (MainAppData.loggedIn) {
       MainAppData.setUserInfo();
     }
