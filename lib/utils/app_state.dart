@@ -17,7 +17,7 @@ const timerPeriodicMilliseconds = 115;
 const serverHostName = 'greenscout-backend-github-85398269750.us-central1.run.app'; // TODO Put your server name here! SERVER STUFF (localhost is the default)
 const serverPort = 443; //swap port based on TLS [backend main.go]
 
-const enableHttps = false; //uri protocol stuff, determines if the front end uses https or http
+const enableHttps = true; //uri protocol stuff, determines if the front end uses https or http
 
 const emptyMap = {"empty": " "};
 
